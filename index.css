@@ -25,3 +25,52 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+html{
+    background-image: url('https://wweek-wweek-prod.cdn.arcpublishing.com/resizer/dQFyEA7S1AMvqeO9BaRkcG81o9U=/1200x630/filters:format(jpg):quality(70)/s3.amazonaws.com/wapopartners.com/wweek-wp/wp-content/uploads/2016/01/26162709/Jordans-1200x730.jpg');
+    background-color: lightgray;
+    background-size: contain;
+    font-family: fantasy;
+}
+h1{
+    background-image: linear-gradient(90deg, rgba(139,35,209,1) 0%, rgba(255,0,0,1) 50%, rgba(255,156,17,1) 100%);
+    text-align: center;
+    color: aliceblue;
+    font-size: 120px;
+    text-shadow: 5px 5px black;
+    padding: 15px 0px;
+    /* border: 5px; */
+}
+.images{
+    display: inline;
+    box-shadow: 10px 10px 15px black;
+}
+.info{
+    text-align: center;
+    text-decoration:2px wavy white;
+    font-size: 45px;
+    display: inline-block;
+    color: aliceblue;
+    width: 50%;
+    background-image:linear-gradient(90deg, rgba(255,124,0,1) 0%, rgba(255,11,11,1) 25%, rgba(255,0,219,1) 50%, rgba(255,11,11,1) 75%, rgba(255,124,0,1) 100%); 
+    background-color: rgb(255,124,0);
+    background-size: cover;
+}
+#row1-section1{
+    float: left;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+#row2-section1{
+    float: right;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+#row1-section2{
+    margin-bottom: 50px;
+}
+#row2-section2{
+    margin-top: 50px;
+}
+/* #jordans-1-desc{
+    
+} */
